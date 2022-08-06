@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/59bbbc5f0b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header section start -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Foodie</a>
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Review</a>
+            <a href="#order">Order</a>
+            <a href="our_specialities">Most Loved </a>
+
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+    <!-- Header section end -->
+
+    <!-- Search Form  -->
+    <form actions="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!--  Home section starts -->
+    <section class="home" id="home">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special dish</span>
+                        <h3>Indian Thali</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt dolorum cupiditate quam vitae eius, nulla sapiente repellendus doloribus fugit dolores. Fugit ad debitis delectus harum, magni in deserunt hic magnam.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/pexels-chan-walrus-958545.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Our Special dish</span>
+                            <h3>Chicken Biryani</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt dolorum cupiditate quam vitae eius, nulla sapiente repellendus doloribus fugit dolores. Fugit ad debitis delectus harum, magni in deserunt hic magnam.</p>
+                            <a href="#" class="btn">Order Now</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/pexels-rajesh-tp-1624487.jpg" alt="">
+                        </div>
+                    
+                        <div class="swiper-slide slide">
+                            <div class="content">
+                                <span>Our Special dish</span>
+                                <h3>Noodles</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt dolorum cupiditate quam vitae eius, nulla sapiente repellendus doloribus fugit dolores. Fugit ad debitis delectus harum, magni in deserunt hic magnam.</p>
+                                <a href="#" class="btn">Order Now</a>
+                            </div>
+                            <div class="image">
+                                <img src="images/pexels-lisa-1279330.jpg" alt="">
+                            </div>
+
+                            <div class="swiper-slide slide">
+                                <div class="content">
+                                    <span>Our Special dish</span>
+                                    <h3>Pizzas</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt dolorum cupiditate quam vitae eius, nulla sapiente repellendus doloribus fugit dolores. Fugit ad debitis delectus harum, magni in deserunt hic magnam.</p>
+                                    <a href="#" class="btn">Order Now</a>
+                                </div>
+                                <div class="image">
+                                    <img src="images/pexels-vincent-rivaud-2147491.jpg" alt="">
+                                </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+            
+        </div>
+    </section>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Home section ends  -->
+    <script src="script.js"></script>
+</body>
+</html>
